@@ -21,13 +21,14 @@ border-bottom-left-radius: 10px;
 background-color: hsl(0, 0%, 100%);
 display: flex;
 
-flex-wrap: wrap;
+
 }
 .text{
     width: 50%;
     padding-top: 20px;
     padding-left: 20px;
     display: flex;
+    
     flex-direction: column;
 
     
@@ -47,6 +48,7 @@ flex-wrap: wrap;
   color: hsl(212, 21%, 14%);
   font-size: 35px;
   line-height: 0.90em;
+  flex-wrap: wrap;
 }
 .text>*{
     padding: 10px;
@@ -55,11 +57,13 @@ flex-wrap: wrap;
 .price{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     
 }
 .p4 , .p5{
     width: 50%;
 padding-left: 15px;
+
 }
 .p1 , .p3 , .p5{
     color: hsl(228, 12%, 48%);
@@ -70,6 +74,7 @@ padding-left: 15px;
     font-size: x-large;
     font-family: Fraunces;
     color: hsl(158, 36%, 37%);
+    flex-wrap: wrap;
 
 }
 .p5{
