@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inconsolata:wght@500&family=Montserrat:wght@500&family=Open+Sans&family=Outfit:wght@100&family=Oxygen:wght@700&family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inconsolata:wght@500&family=Montserrat:wght@100;200&family=Open+Sans&family=Outfit:wght@100&family=Oxygen:wght@700&family=Titillium+Web:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+   
+   
+}
+body{
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+    width: 560px;
+    height: 400px;
+margin: 130px auto 0 auto ;
+border-radius: 10px;
+border-bottom-left-radius: 10px;
+background-color: hsl(0, 0%, 100%);
+display: flex;
+
+flex-wrap: wrap;
+}
+.text{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.img{
+    width: 50%;
+}
+.img>img{
+    width: 94%;
+    height: 100%;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+
+}
+.p2{
+  font-family: Fraunces; 
+  color: hsl(212, 21%, 14%);
+  font-size: 35px;
+  line-height: 0.90em;
+}
+.text>*{
+    padding: 10px;
+    
+}
+.price{
+    width: 100%;
+    display: flex;
+    
+}
+.p4 , .p5{
+    width: 50%;
+padding-left: 15px;
+}
+.p1 , .p3 , .p5{
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+.p4{
+    font-size: x-large;
+    font-family: Fraunces;
+    color: hsl(158, 36%, 37%);
+
+}
+.p5{
+    text-decoration: line-through;
+}
+button{
+    border-style: none;
+    margin: 20px;
+    font-size: 14px;
+font-family: Montserrat;
+font-weight: 500;
+    width: 200px;
+border-radius: 8px ;
+color: white;
+background-color: hsl(158, 36%, 37%);
+
+}
+button>img{
+    margin-right: 5px;
+    
+}
+button:hover{ cursor:pointer;
+background-color: hsl(158, 38%, 15%);}
+
+@media only screen and (max-width: 375px){
+ 
+    
+}
