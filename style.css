@@ -17,9 +17,9 @@ body{
     height: 400px;
 margin: 130px auto 0 auto ;
 border-radius: 10px;
-border-bottom-left-radius: 10px;
 background-color: hsl(0, 0%, 100%);
 display: flex;
+flex-wrap: wrap;
 
 
 }
@@ -28,19 +28,21 @@ display: flex;
     padding-top: 20px;
     padding-left: 20px;
     display: flex;
-    
     flex-direction: column;
 
     
 }
 .img{
     width: 50%;
+    height: 100%;
 }
 .img>img{
     width: 94%;
     height: 100%;
     border-top-left-radius: 10px ;
     border-bottom-left-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .p2{
@@ -48,8 +50,8 @@ display: flex;
   color: hsl(212, 21%, 14%);
   font-size: 35px;
   line-height: 0.90em;
-  flex-wrap: wrap;
-}
+  display: flex;
+  flex-wrap: wrap;}
 .text>*{
     padding: 10px;
     
@@ -68,12 +70,14 @@ padding-left: 15px;
 .p1 , .p3 , .p5{
     color: hsl(228, 12%, 48%);
     font-size: 14px;
+    display: flex;
     flex-wrap: wrap;
 }
 .p4{
     font-size: x-large;
     font-family: Fraunces;
     color: hsl(158, 36%, 37%);
+    display: flex;
     flex-wrap: wrap;
 
 }
@@ -99,7 +103,10 @@ button>img{
 button:hover{ cursor:pointer;
 background-color: hsl(158, 38%, 15%);}
 
-@media only screen and (max-width: 375px){
- 
-    
-}
+@media only screen and (max-width: 600px){
+ .container{
+    width: 95%;
+    margin: 130px 20px 0 20px  ;
+   flex-grow: 1 ;}}
+
+   
